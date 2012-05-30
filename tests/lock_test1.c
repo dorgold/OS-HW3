@@ -18,6 +18,15 @@ int array[ARR_SIZE];
 int counter;
 Lock lock;
 
+
+
+
+
+
+
+
+
+
 void* work_on_array(void* temp_lock) {
 	Lock lock_tmp = (Lock)temp_lock;
 	int i;
